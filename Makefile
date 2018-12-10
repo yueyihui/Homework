@@ -10,6 +10,9 @@ section3: section3.cpp
 section4: section4.cpp
 	g++ -Wall -ggdb3 -o $@ $^
 
+section5: section5.cpp
+	g++ -Wall -ggdb3 -o $@ $^
+
 clean:
 	find -type f -executable -delete
 	find -type f -name *.o -delete
